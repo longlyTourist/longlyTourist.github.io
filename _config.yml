@@ -60,12 +60,12 @@ duoshuo_share: true                     # set to false if you want to use Commen
 
 
 # Analytics settings
-# Baidu Analytics 
+# Baidu Analytics
 # ba_track_id: [your track id]
 
 # Google Analytics
 ga_track_id: 'UA-87707068-1'            # Format: UA-xxxxxx-xx
-ga_domain: https://longlytourist.github.io
+ga_domain: auto
 
 
 
