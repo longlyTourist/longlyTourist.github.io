@@ -2,7 +2,7 @@
 layout: page
 description: "旅途或许寂寞，但回望亦有精彩"
 ---
-aaaaaa
+
 {% for post in paginator.posts %}
 <div class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">
@@ -24,7 +24,7 @@ aaaaaa
 </div>
 <hr>
 {% endfor %}
-bbbbbb
+
 <!-- Pager -->
 {% if paginator.total_pages > 1 %}
 <ul class="pager">
@@ -40,4 +40,3 @@ bbbbbb
     {% endif %}
 </ul>
 {% endif %}
-ccccc

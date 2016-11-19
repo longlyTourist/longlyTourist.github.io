@@ -133,13 +133,13 @@ sidebar-avatar: /img/avatar-hux.jpg     #你的大头贴，请使用绝对地址
 
 Mini-About-Me 这个模块将在你的头像下面，展示你所有的社交账号。这个也是响应式布局，当屏幕变小时候，会将其移动到页面底部，只不过会稍微有点小变化，具体请看代码。
 
-#### Featured Tags
+#### MY TAGS
 
 看到这个网站 [Medium](http://medium.com) 的推荐标签非常的炫酷，所以我将他加了进来。
 这个模块现在是独立的，可以呈现在所有页面，包括主页和发表的每一篇文章标题的头上。
 
 ```
-# Featured Tags
+# MY TAGS
 featured-tags: true  
 featured-condition-size: 1     # A tag will be featured if the size of it is more than this condition value
 ```

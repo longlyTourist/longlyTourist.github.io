@@ -17,7 +17,7 @@ $ git clone git@github.com:Huxpro/huxblog-boilerplate.git
 **[View Boilerplate Here &rarr;](http://huangxuan.me/huxblog-boilerplate/)**
 
 
-## Porting 
+## Porting
 
 - [**Hexo**](https://github.com/Kaijun/hexo-theme-huxblog) by @kaijun
 - [**React-SSR**](https://github.com/LucasIcarus/huxpro.github.io/tree/ssr) by @LucasIcarus
@@ -44,7 +44,7 @@ $ git clone git@github.com:Huxpro/huxblog-boilerplate.git
 
 ##### New Feature (V1.4)
 
-- **[Featured Tags](#featured-tags)** is now independent of [SideBar](#sidebar). Both documents is updated.
+- **[MY TAGS](#featured-tags)** is now independent of [SideBar](#sidebar). Both documents is updated.
 - New **[SEO Title](#seo-title)** for SEO usage which is differ from the site title
 
 ##### New Feature (V1.3.1)
@@ -96,7 +96,7 @@ $ git clone git@github.com:Huxpro/huxblog-boilerplate.git
 * Components
 	* [SideBar](#sidebar)
 	* [Mini About Me](#mini-about-me)
-	* [Featured Tags](#featured-tags)
+	* [MY TAGS](#featured-tags)
 	* [Friends](#friends)
 	* [Keynote Layout](#keynote-layout)
 * Comment & Analysis
@@ -168,7 +168,7 @@ sidebar-about-description: "your description here"
 sidebar-avatar: /img/avatar-hux.jpg     # use absolute URL.
 ```
 
-We default support *[Featured Tags](#featured-tags)*, *[Mini About Me](#mini-about-me)* and *[Friends](#friends)* these three modules and you can add your own. The sidebar is naturally responsive and would be push to bottom in a small screen size (`<= 992px`, according to [Bootstarp Grid System](http://getbootstrap.com/css/#grid))  
+We default support *[MY TAGS](#featured-tags)*, *[Mini About Me](#mini-about-me)* and *[Friends](#friends)* these three modules and you can add your own. The sidebar is naturally responsive and would be push to bottom in a small screen size (`<= 992px`, according to [Bootstarp Grid System](http://getbootstrap.com/css/#grid))  
 More details of these three separate modules are talking below.
 
 #### Mini About Me
@@ -177,14 +177,14 @@ Mini-About-Me module display all your SNS buttons also your avatar and the descr
 
 It is really nice-looking and well-designed. It would be hidden in a small screen seeing the sidebar would be push to bottom and there is already a footer including SNS feature which is similar.
 
-#### Featured Tags
+#### MY TAGS
 
 Considering the Featured-Tags feature in [Medium](http://medium.com) is pretty cool, so I add it in my blog theme also.   
 This module is independent of sidebar from V1.4, so it can definitely live without enable sidebar, which would be displayed in the bottom when `sidebar` set to false, and it is not only displayed in home page but also every post page bottom.
 
 
 ```
-# Featured Tags
+# MY TAGS
 featured-tags: true  
 featured-condition-size: 1     # A tag will be featured if the size of it is more than this condition value
 ```
