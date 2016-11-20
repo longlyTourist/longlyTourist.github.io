@@ -25,6 +25,7 @@ tags:
 
 
 ---
+
 # 产品的市场生命周期
 
 ![](http://ogw4950jb.bkt.clouddn.com/%E5%9B%BE%E6%A0%87/IT%E5%B8%82%E5%9C%BA%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F.jpg?imageMogr2/thumbnail/500x)
